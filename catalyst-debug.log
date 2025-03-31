@@ -1,0 +1,83 @@
+[debug] [2025-03-31T06:29:44.676Z] : 
+[debug] [2025-03-31T06:29:44.679Z] : ----------------------------------------------------------------------
+[debug] [2025-03-31T06:29:44.679Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Bhumisvara K\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-03-31T06:29:44.680Z] : CLI Version:  1.17.6
+[debug] [2025-03-31T06:29:44.680Z] : Platform:     win32
+[debug] [2025-03-31T06:29:44.680Z] : Node Version: v22.14.0
+[debug] [2025-03-31T06:29:44.681Z] : Time:         Mon Mar 31 2025 11:59:44 GMT+0530 (India Standard Time)
+[debug] [2025-03-31T06:29:44.681Z] : ----------------------------------------------------------------------
+[debug] [2025-03-31T06:29:44.681Z] : 
+[debug] [2025-03-31T06:29:46.748Z] : > authorizing via signed-in user option
+[debug] [2025-03-31T06:29:46.748Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2025-03-31T06:29:46.768Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/14728000000009129 
+
+[debug] [2025-03-31T06:29:46.934Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 31 Mar 2025 06:29:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=ed010f63633be60a322039283f31a645; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=87aeba7e-20a8-409e-9aa0-5315d1b2a41b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=87aeba7e-20a8-409e-9aa0-5315d1b2a41b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-03-31T06:29:46.939Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/14728000000009129/environment 
+
+[debug] [2025-03-31T06:29:46.986Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 31 Mar 2025 06:29:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=411f509465b028e7e235eac6930aaab2; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=edc567c0-1d3a-49c4-b6a5-6ebdfb187285;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=edc567c0-1d3a-49c4-b6a5-6ebdfb187285;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-03-31T06:29:47.659Z] : No basic functions to add
+[info] [2025-03-31T06:29:51.025Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-03-31T06:29:51.027Z] : 
+[info] [2025-03-31T06:29:51.028Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-03-31T06:29:51.028Z] : 
+[info] [2025-03-31T06:29:52.434Z] : 
+[info] [2025-03-31T06:29:52.434Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-03-31T06:29:52.435Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2025-03-31T06:29:52.435Z] : 
+[info] [2025-03-31T06:29:58.380Z] : [react-plugin]: Compiled successfully!
+[info] [2025-03-31T06:29:58.381Z] : [react-plugin]: 
+[info] [2025-03-31T06:29:58.381Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2025-03-31T06:29:58.381Z] : [react-plugin]: 
+[info] [2025-03-31T06:29:58.381Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-03-31T06:29:58.381Z] : [react-plugin]:   On Your Network:  http://172.23.64.1:3000/app/
+[info] [2025-03-31T06:29:58.382Z] : [react-plugin]: 
+[info] [2025-03-31T06:29:58.382Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-03-31T06:29:58.382Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-03-31T06:29:58.382Z] : [react-plugin]: 
+[debug] [2025-03-31T06:34:46.371Z] : 
+[debug] [2025-03-31T06:34:46.374Z] : ----------------------------------------------------------------------
+[debug] [2025-03-31T06:34:46.374Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Bhumisvara K\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-03-31T06:34:46.374Z] : CLI Version:  1.17.6
+[debug] [2025-03-31T06:34:46.375Z] : Platform:     win32
+[debug] [2025-03-31T06:34:46.375Z] : Node Version: v22.14.0
+[debug] [2025-03-31T06:34:46.375Z] : Time:         Mon Mar 31 2025 12:04:46 GMT+0530 (India Standard Time)
+[debug] [2025-03-31T06:34:46.375Z] : ----------------------------------------------------------------------
+[debug] [2025-03-31T06:34:46.375Z] : 
+[debug] [2025-03-31T06:34:48.636Z] : > authorizing via signed-in user option
+[debug] [2025-03-31T06:34:48.636Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2025-03-31T06:34:48.657Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/14728000000009129 
+
+[debug] [2025-03-31T06:34:48.873Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 31 Mar 2025 06:34:51 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=ed010f63633be60a322039283f31a645; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=e88e37ee-3a22-4254-acb5-fb0e4b7fb0e7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e88e37ee-3a22-4254-acb5-fb0e4b7fb0e7;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-03-31T06:34:48.878Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/14728000000009129/environment 
+
+[debug] [2025-03-31T06:34:48.945Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 31 Mar 2025 06:34:51 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=411f509465b028e7e235eac6930aaab2; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=b2098ebd-c400-42d8-9402-dffd4ac2f283;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b2098ebd-c400-42d8-9402-dffd4ac2f283;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-03-31T06:34:49.824Z] : No basic functions to add
+[info] [2025-03-31T06:34:54.401Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-03-31T06:34:54.403Z] : 
+[info] [2025-03-31T06:34:54.403Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-03-31T06:34:54.404Z] : 
+[info] [2025-03-31T06:34:56.015Z] : 
+[info] [2025-03-31T06:34:56.015Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-03-31T06:34:56.015Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2025-03-31T06:34:56.015Z] : 
+[info] [2025-03-31T06:34:56.504Z] : [react-plugin]: Compiled successfully!
+[info] [2025-03-31T06:34:56.504Z] : [react-plugin]: 
+[info] [2025-03-31T06:34:56.504Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2025-03-31T06:34:56.505Z] : [react-plugin]: 
+[info] [2025-03-31T06:34:56.505Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-03-31T06:34:56.506Z] : [react-plugin]:   On Your Network:  http://172.23.64.1:3000/app/
+[info] [2025-03-31T06:34:56.506Z] : [react-plugin]: 
+[info] [2025-03-31T06:34:56.506Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-03-31T06:34:56.507Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-03-31T06:34:56.507Z] : [react-plugin]: 
+[info] [2025-03-31T06:34:56.618Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
